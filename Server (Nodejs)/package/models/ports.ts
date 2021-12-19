@@ -1,0 +1,6 @@
+export enum Ports {
+    APP = 3000,
+    DATABASE = 4000,
+    SESSION_SOCKET_PORT_1 = 3001,
+    SESSION_SOCKET_PORT_2 = 3002
+}

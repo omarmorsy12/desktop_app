@@ -1,0 +1,27 @@
+﻿<ResourceDictionary 
+                    x:Name="content"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:app.structure.services.translation.content.login"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    x:Class="app.structure.services.translation.content.login.LoginTranslationContent">
+
+    <ResourceDictionary x:Key="Arabic">
+        <system:String x:Key="choose_a_role">اختر دورًا</system:String>
+        <system:String x:Key="wrong_access">دخول خاطئ</system:String>
+        <system:String x:Key="server_not_running">خطأ, النظام غير جاري</system:String>
+        <system:String x:Key="login_failed">$errorCode :فشل, خطأ</system:String>
+        <system:String x:Key="username_or_email">اسم المستخدم أو البريد الإلكتروني</system:String>
+        <system:String x:Key="password">كلمة السر</system:String>
+        <system:String x:Key="login">دخول</system:String>
+    </ResourceDictionary>
+    <ResourceDictionary x:Key="English">
+        <system:String x:Key="choose_a_role">Choose a Role</system:String>
+        <system:String x:Key="wrong_access">Wrong Access</system:String>
+        <system:String x:Key="server_not_running">Error, Server is not running</system:String>
+        <system:String x:Key="login_failed">Failed, Error: $errorCode</system:String>
+        <system:String x:Key="username_or_email">Username or Email</system:String>
+        <system:String x:Key="password">Password</system:String>
+        <system:String x:Key="login">LOGIN</system:String>
+    </ResourceDictionary>
+</ResourceDictionary>

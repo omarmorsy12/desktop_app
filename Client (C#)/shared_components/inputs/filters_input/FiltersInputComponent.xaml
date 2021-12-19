@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="app.shared_components.inputs.FiltersInputComponent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:app.shared_components.inputs"
+             mc:Ignorable="d"
+             Height="auto" Width="auto">
+    <DockPanel LastChildFill="False" Height="37">
+        <DockPanel.Background>
+            <SolidColorBrush Color="{ StaticResource LighterGreyColor }"></SolidColorBrush>
+        </DockPanel.Background>
+        <TextBlock x:Name="label" FontFamily="{ StaticResource HpSimplified }" FontSize="16" VerticalAlignment="Center" Padding="14,0">Label</TextBlock>
+        <StackPanel x:Name="pillsContainer" Orientation="Horizontal" Margin="0"></StackPanel>
+        <Grid x:Name="filterIcon" Height="37" Width="44">
+            <Grid.Background>
+                <SolidColorBrush Color="{ StaticResource LighterGreyColor }"></SolidColorBrush>
+            </Grid.Background>
+            <Image Opacity="1" Source="pack://application:,,,/resources/images/filter.png" Width="16" Height="14" IsHitTestVisible="False"></Image>
+            <Image Opacity="0" Source="pack://application:,,,/resources/images/filter-white.png" Width="16" Height="14" IsHitTestVisible="False"></Image>
+        </Grid>
+    </DockPanel>
+</UserControl>

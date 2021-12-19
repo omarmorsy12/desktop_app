@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="app.windows.login.components.LoginButtonComponent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:app.windows.login.components"
+             xmlns:Inputs="clr-namespace:app.shared_components.inputs"
+             mc:Ignorable="d" >
+    <Grid>
+        <Inputs:FixedButtonComponent x:Name="button"></Inputs:FixedButtonComponent>
+        <Image Opacity="0" x:Name="directionArrowIcon" Source="../../../resources/images/light_direction_arrow.png" Stretch="Fill" Width="12" Height="19" IsHitTestVisible="False"></Image>
+    </Grid>
+</UserControl>

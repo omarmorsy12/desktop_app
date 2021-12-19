@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="app.shared_components.inputs.SearchBarComponent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:app.shared_components.inputs"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Height="37" x:Name="container">
+        <Grid.Background>
+            <SolidColorBrush Color="{ StaticResource GreyColor }"></SolidColorBrush>
+        </Grid.Background>
+        <Rectangle Fill="White" Margin="1"></Rectangle>
+        <DockPanel Margin="1">
+            <Grid x:Name="searchIcon" DockPanel.Dock="Left">
+                <Rectangle Fill="White"></Rectangle>
+                <Image Margin="12,0,12,0" Height="17" IsHitTestVisible="False" Source="pack://application:,,,/resources/images/search_grey.png"></Image>
+                <Image Margin="12,0,12,0" Height="17" IsHitTestVisible="False" Opacity="0" Source="pack://application:,,,/resources/images/search.png"></Image>
+            </Grid>
+            <Grid x:Name="clearIcon" DockPanel.Dock="Right">
+                <Rectangle Fill="White"></Rectangle>
+                <Image Margin="12,0,12,0" Height="12" IsHitTestVisible="False" Source="pack://application:,,,/resources/images/clear_grey.png"></Image>
+                <Image Margin="12,0,12,0" Height="12" IsHitTestVisible="False" Opacity="0" Source="pack://application:,,,/resources/images/clear.png"></Image>
+            </Grid>
+            <Grid>
+                <TextBox x:Name="textInput" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" Padding="5,0,5,0" FontFamily="{ StaticResource HpSimplified }" BorderThickness="0,0,0,0" FontSize="16" HorizontalContentAlignment="Stretch">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{StaticResource GreyColor}"></SolidColorBrush>
+                    </TextBlock.Foreground>
+                </TextBox>
+                <TextBlock x:Name="placeholderText" HorizontalAlignment="Stretch" Margin="8,0,8,0" VerticalAlignment="Center" IsHitTestVisible="False" FontFamily="{ StaticResource HpSimplified }" FontSize="16">
+                    <TextBlock.Foreground>
+                        <SolidColorBrush Color="{ StaticResource GreyColor }"></SolidColorBrush>
+                    </TextBlock.Foreground>
+                Quick Search
+                </TextBlock>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</UserControl>

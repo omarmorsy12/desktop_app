@@ -1,0 +1,125 @@
+﻿<ResourceDictionary 
+                    x:Name="content"
+                    xmlns:local="clr-namespace:app.structure.services.translation.content.main"
+                    x:Class="app.structure.services.translation.content.main.MainTranslationContent"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <ResourceDictionary x:Key="Arabic">
+        <system:String x:Key="download">تحميل</system:String>
+        <system:String x:Key="send">أرسل</system:String>
+        <system:String x:Key="contact_us">تواصل معنا</system:String>
+        <system:String x:Key="contact_us_subtitle">سعداء أن نسمع منك</system:String>
+        <system:String x:Key="contact_email">$email :البريد الإلكتروني</system:String>
+        <system:String x:Key="contact_phone">$phoneNumber :هاتف</system:String>
+        <system:String x:Key="write_feedback">اكتب لنا ملاحظاتك</system:String>
+        <system:String x:Key="write_feedback_subtitle">رأيك يهم</system:String>
+        <system:String x:Key="write_feedback_placeholder">اذا ما هو رأيك ؟</system:String>
+        <system:String x:Key="can_not_write_feedback">عذرًا ، لا يمكنك إرسال أي ملاحظات إلينا بسبب اتصالك بالإنترنت</system:String>
+        <system:String x:Key="received_feedback">شكرا ، لقد تلقينا ملاحظاتك</system:String>
+        <system:String x:Key="no_internet_connection">لا يوجد اتصال بالإنترنت</system:String>
+        <system:String x:Key="tags">تصنيفات</system:String>
+        <system:String x:Key="no_tags">لا يوجد تصنيفات</system:String>
+        <system:String x:Key="permissions">أذونات</system:String>
+        <system:String x:Key="students">طلاب</system:String>
+        <system:String x:Key="quick_search">بحث سريع</system:String>
+        <system:String x:Key="filters">تصفيات</system:String>
+        <system:String x:Key="all_grades">كل الصفوف</system:String>
+        <system:String x:Key="search_result">: نتيجة البحث</system:String>
+        <system:String x:Key="total_students">: إجمالي الطلاب</system:String>
+        <system:String x:Key="information">معلومات</system:String>
+        <system:String x:Key="guardians">أولياء الأمور</system:String>
+        <system:String x:Key="siblings">أخوة</system:String>
+        <system:String x:Key="record">سجل</system:String>
+        <system:String x:Key="years">سنوات</system:String>
+        <system:String x:Key="year">سنة</system:String>
+        <system:String x:Key="male">ذكر</system:String>
+        <system:String x:Key="female">أنثي</system:String>
+        <system:String x:Key="no_photo">لا يوجد صورة</system:String>
+        <system:String x:Key="full_name">الاسم بالكامل</system:String>
+        <system:String x:Key="date_of_birth">تاريخ الميلاد</system:String>
+        <system:String x:Key="nationality">الجنسية</system:String>
+        <system:String x:Key="religion">الديانة</system:String>
+        <system:String x:Key="address">العنوان</system:String>
+        <system:String x:Key="muslim">مسلم#ة</system:String>
+        <system:String x:Key="christian">مسيحي#ة</system:String>
+        <system:String x:Key="national_id">الرقم القومي</system:String>
+        <system:String x:Key="passport_no">رقم الباسبور</system:String>
+        <system:String x:Key="registered">مسجل#ة</system:String>
+        <system:String x:Key="graduated">تخرج#ت</system:String>
+        <system:String x:Key="no_siblings">لا يوجد أخوة</system:String>
+
+        <!-- GUARDIANS -->
+        <system:String x:Key="father">أب</system:String>
+        <system:String x:Key="mother">أم</system:String>
+        <system:String x:Key="brother">أخ</system:String>
+        <system:String x:Key="sister">أخت</system:String>
+        <system:String x:Key="paternal_uncle">عم</system:String>
+        <system:String x:Key="maternal_uncle">خال</system:String>
+        <system:String x:Key="paternal_aunt">عمة</system:String>
+        <system:String x:Key="maternal_aunt">خالة</system:String>
+
+        <!-- FEATURES -->
+        <system:String x:Key="test_feature_11.title">تجربة</system:String>
+        <system:String x:Key="test_feature_11.description">هذا تجربة لي وصف الخاصية, ال أ بي أي لي خاصية التجربة يرسل رسالة "مرحبا بالعالم"</system:String>
+
+    </ResourceDictionary>
+    <ResourceDictionary x:Key="English">
+        <system:String x:Key="download">DOWNLOAD</system:String>
+        <system:String x:Key="send">SEND</system:String>
+        <system:String x:Key="contact_us">Contact us</system:String>
+        <system:String x:Key="contact_us_subtitle">happy to hear from you</system:String>
+        <system:String x:Key="contact_email">Email: $email</system:String>
+        <system:String x:Key="contact_phone">Phone: $phoneNumber</system:String>
+        <system:String x:Key="write_feedback">Write us your feedback</system:String>
+        <system:String x:Key="write_feedback_subtitle">your opinion matters</system:String>
+        <system:String x:Key="write_feedback_placeholder">so, what is your opinion ?</system:String>
+        <system:String x:Key="received_feedback">Thanks, we received your feedback</system:String>
+        <system:String x:Key="can_not_write_feedback">Sorry, you can not send us any feedback due to your internet connection</system:String>
+        <system:String x:Key="no_internet_connection">No Internet Connection</system:String>
+        <system:String x:Key="tags">Tags</system:String>
+        <system:String x:Key="no_tags">No Tags</system:String>
+        <system:String x:Key="permissions">Permissions</system:String>
+        <system:String x:Key="students">Students</system:String>
+        <system:String x:Key="quick_search">Quick Search</system:String>
+        <system:String x:Key="filters">Filters</system:String>
+        <system:String x:Key="all_grades">All grades</system:String>
+        <system:String x:Key="search_result">Search Result :</system:String>
+        <system:String x:Key="total_students">Total Students :</system:String>
+        <system:String x:Key="information">Information</system:String>
+        <system:String x:Key="guardians">Guardians</system:String>
+        <system:String x:Key="siblings">Siblings</system:String>
+        <system:String x:Key="record">Record</system:String>
+        <system:String x:Key="years">years old</system:String>
+        <system:String x:Key="male">Male</system:String>
+        <system:String x:Key="female">Female</system:String>
+        <system:String x:Key="no_photo">No Photo</system:String>
+        <system:String x:Key="full_name">Fullname</system:String>
+        <system:String x:Key="date_of_birth">Date of Birth</system:String>
+        <system:String x:Key="nationality">Nationality</system:String>
+        <system:String x:Key="religion">Religion</system:String>
+        <system:String x:Key="address">Address</system:String>
+        <system:String x:Key="muslim">Muslim</system:String>
+        <system:String x:Key="christian">Christian</system:String>
+        <system:String x:Key="national_id">National Id</system:String>
+        <system:String x:Key="passport_no">Passport Number</system:String>
+        <system:String x:Key="registered">Registered</system:String>
+        <system:String x:Key="graduated">Graduated</system:String>
+        <system:String x:Key="no_siblings">No Siblings</system:String>
+
+        <!-- GUARDIANS -->
+        <system:String x:Key="father">Father</system:String>
+        <system:String x:Key="mother">Mother</system:String>
+        <system:String x:Key="brother">Brother</system:String>
+        <system:String x:Key="sister">Sister</system:String>
+        <system:String x:Key="paternal_uncle">Paternal Uncle</system:String>
+        <system:String x:Key="maternal_uncle">Maternal Uncle</system:String>
+        <system:String x:Key="paternal_aunt">Paternal Aunt</system:String>
+        <system:String x:Key="maternal_aunt">Maternal Aunt</system:String>
+        
+        <!-- FEATURES -->
+        <system:String x:Key="test_feature_11.title">Test</system:String>
+        <system:String x:Key="test_feature_11.description">This is a test for feature description, Test Feature Api returns a message "Hello World"</system:String>
+
+    </ResourceDictionary>
+</ResourceDictionary>

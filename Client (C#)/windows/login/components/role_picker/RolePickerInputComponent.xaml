@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="app.windows.login.components.role_picker.RolePickerInputComponent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:app.windows.login.components.role_picker"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Width="234" Height="42">
+        <Rectangle x:Name="bar" Width="234" Height="42" Fill="White" Opacity="0.4"></Rectangle>
+        <Label x:Name="label" IsHitTestVisible="False" FontFamily="{ StaticResource HpSimplified }" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label.Foreground>
+                <SolidColorBrush Color="{ StaticResource BlackColor }"></SolidColorBrush>
+            </Label.Foreground>
+        </Label>
+        <Grid x:Name="goTrigger" Visibility="Collapsed" Width="29" Height="29" HorizontalAlignment="Right" Margin="0,0,5,0">
+            <Ellipse Width="29" Height="29" Opacity="0" x:Name="circle">
+                <Ellipse.Fill>
+                    <SolidColorBrush Color="{StaticResource PurpleColor}"></SolidColorBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Image x:Name="loader" IsHitTestVisible="False" Width="19" Height="19" Source="../../../../resources/images/loading/loading.png" Opacity="0"></Image>
+            <Image x:Name="purpleArrow" IsHitTestVisible="False"  Width="12" Height="19" Source="./resources/direction_arrow_purple.png" Opacity="0"></Image>
+            <Image x:Name="whiteArrow" IsHitTestVisible="False"  Width="12" Height="19" Source="../../../../resources/images/light_direction_arrow.png" Opacity="0"></Image>
+        </Grid>
+    </Grid>
+</UserControl>

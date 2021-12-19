@@ -1,0 +1,110 @@
+﻿<ResourceDictionary 
+                    x:Name="content"
+                    x:Class="app.structure.services.translation.content.shared.SharedTranslationContent"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:app.structure.services.translation.content.shared">
+
+    <ResourceDictionary x:Key="user_roles">
+        <system:String x:Key="viewers">login,main</system:String>
+        <ResourceDictionary x:Key="Arabic">
+            <system:String x:Key="school_owner">صاحب المدرسة</system:String>
+            <system:String x:Key="headmaster">الناظر</system:String>
+            <system:String x:Key="teacher_supervisor">مشرف المدرسيين</system:String>
+            <system:String x:Key="teacher">مدرس</system:String>
+            <system:String x:Key="co_teacher">مساعد المدرس</system:String>
+            <system:String x:Key="staff">طاقم العمل</system:String>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="English">
+            <system:String x:Key="school_owner">School Owner</system:String>
+            <system:String x:Key="headmaster">Headmaster</system:String>
+            <system:String x:Key="teacher_supervisor">Teacher Supervisor</system:String>
+            <system:String x:Key="teacher">Teacher</system:String>
+            <system:String x:Key="co_teacher">Co Teacher</system:String>
+            <system:String x:Key="staff">Staff</system:String>
+        </ResourceDictionary>
+    </ResourceDictionary>
+
+    <ResourceDictionary x:Key="main_window_sections">
+        <system:String x:Key="viewers">main</system:String>
+        <ResourceDictionary x:Key="Arabic">
+            <system:String x:Key="actions">أجراءات</system:String>
+            <system:String x:Key="tasks">مهام</system:String>
+            <system:String x:Key="members">أعضاء</system:String>
+            <system:String x:Key="chat">محادثة</system:String>
+            <system:String x:Key="settings">إعدادات</system:String>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="English">
+            <system:String x:Key="actions">Actions</system:String>
+            <system:String x:Key="tasks">Tasks</system:String>
+            <system:String x:Key="members">Members</system:String>
+            <system:String x:Key="chat">Chat</system:String>
+            <system:String x:Key="settings">Settings</system:String>
+        </ResourceDictionary>
+    </ResourceDictionary>
+
+    <ResourceDictionary x:Key="general_labels">
+        <system:String x:Key="viewers">all</system:String>
+        <ResourceDictionary x:Key="Arabic">
+            <system:String x:Key="date">تاريخ</system:String>
+            <system:String x:Key="back">رجوع</system:String>
+            <system:String x:Key="loading">تحميل</system:String>
+            <system:String x:Key="0">٠</system:String>
+            <system:String x:Key="1">١</system:String>
+            <system:String x:Key="2">٢</system:String>
+            <system:String x:Key="3">٣</system:String>
+            <system:String x:Key="4">٤</system:String>
+            <system:String x:Key="5">٥</system:String>
+            <system:String x:Key="6">٦</system:String>
+            <system:String x:Key="7">٧</system:String>
+            <system:String x:Key="8">٨</system:String>
+            <system:String x:Key="9">٩</system:String>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="English">
+            <system:String x:Key="date">Date</system:String>
+            <system:String x:Key="back">Back</system:String>
+            <system:String x:Key="loading">Loading</system:String>
+            <system:String x:Key="0">0</system:String>
+            <system:String x:Key="1">1</system:String>
+            <system:String x:Key="2">2</system:String>
+            <system:String x:Key="3">3</system:String>
+            <system:String x:Key="4">4</system:String>
+            <system:String x:Key="5">5</system:String>
+            <system:String x:Key="6">6</system:String>
+            <system:String x:Key="7">7</system:String>
+            <system:String x:Key="8">8</system:String>
+            <system:String x:Key="9">9</system:String>
+        </ResourceDictionary>
+    </ResourceDictionary>
+
+    <ResourceDictionary x:Key="nationalities">
+        <system:String x:Key="viewers">all</system:String>
+        <ResourceDictionary x:Key="Arabic">
+            <system:String x:Key="canadian">كندي#ة</system:String>
+            <system:String x:Key="chinese">صيني#ة</system:String>
+            <system:String x:Key="egyptian">مصري#ة</system:String>
+            <system:String x:Key="finnish">فنلندي#ة</system:String>
+            <system:String x:Key="german">ألماني#ة</system:String>
+            <system:String x:Key="french">فرنسي#ة</system:String>
+            <system:String x:Key="indian">هندي#ة</system:String>
+            <system:String x:Key="iraqi">عراقي#ة</system:String>
+            <system:String x:Key="italian">إيطالي#ة</system:String>
+            <system:String x:Key="japanese">ياباني#ة</system:String>
+        </ResourceDictionary>
+        <ResourceDictionary x:Key="English">
+            <system:String x:Key="canadian">Canadian</system:String>
+            <system:String x:Key="chinese">Chinese</system:String>
+            <system:String x:Key="egyptian">Egyptian</system:String>
+            <system:String x:Key="finnish">Finnish</system:String>
+            <system:String x:Key="german">German</system:String>
+            <system:String x:Key="french">French</system:String>
+            <system:String x:Key="indian">Idian</system:String>
+            <system:String x:Key="iraqi">Iraqi</system:String>
+            <system:String x:Key="italian">Italian</system:String>
+            <system:String x:Key="japanese">Japanese</system:String>
+        </ResourceDictionary>
+    </ResourceDictionary>
+
+
+</ResourceDictionary>

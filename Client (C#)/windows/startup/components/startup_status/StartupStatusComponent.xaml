@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="app.windows.startup.components.StartupStatusComponent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:app.windows.startup.components"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Label x:Name="text" Opacity="0" FontFamily="{ StaticResource HpSimplified }" FontSize="18" VerticalAlignment="Bottom" AutomationProperties.IsColumnHeader="True">
+            <DockPanel>
+                <Grid DockPanel.Dock="Left" Width="77" Height="40" HorizontalAlignment="Left" Margin="58,0,0,0" ClipToBounds="True">
+                    <Rectangle x:Name="rectangle" Width="77" Height="40" Margin="0,0,0,81"></Rectangle>
+                    <Label Opacity="0" x:Name="statusText" FontFamily="{ StaticResource HpSimplified }" Foreground="White" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+                    <Image x:Name="loadingFrame" Width="77" Height="50" VerticalAlignment="Bottom" Source="resources/startup_loading_animation/1.png" Stretch="Fill"></Image>
+                </Grid>
+                <Image DockPanel.Dock="Right" Opacity="0" x:Name="reloadIcon" Source="resources/reload/static.png" Width="28" Stretch="Fill" Height="28" VerticalAlignment="Center"></Image>
+                <AccessText x:Name="innerText" MaxWidth="280" TextWrapping="WrapWithOverflow" VerticalAlignment="Center" Margin="16,0,16,0" ></AccessText>
+            </DockPanel>
+        </Label>
+    </Grid>
+</UserControl>
